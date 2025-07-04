@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3X3 LINEAR SOLVER</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js"></script>
+  </head>
+  <body class="font-sans p-[20px] bg-[#1d2632]">
+    <h1 class="text-center text-[#16be27] font-semibold text-[25px] mb-[5px]">
+      <i class="fa-solid fa-biohazard text-[#16be27]"></i> LINEAR EQUATION
+      SYSTEM SOLUTION 3X3 <i class="fa-solid fa-biohazard text-[#16be27]"></i>
+    </h1>
+    <p class="text-center text-white mb-[30px]">
+      From Chaos to Clarity! Solving Linear Systems with Gauss-Jordan and
+      Inverse Matrix
+    </p>
+    <form
+      class="max-w-[540px] mx-auto my-0 bg-white p-[20px] rounded-lg shadow-md"
+      onsubmit="event.preventDefault(); solve();"
+    >
+      <div
+        class="grid grid-cols-4 mb-[8px] font-bold text-center text-[#1d2632]"
+      >
+        <span>x</span><span>y</span><span>z</span><span>=</span>
+      </div>
+      <div
+        id="matrix-inputs"
+        class="grid grid-cols-4 justify-center gap-[10px] mb-[15px]"
+      ></div>
+      <button
+        type="submit"
+        class="w-full p-[10px] bg-[#16be27] text-white rounded-lg text-[16px] hover:bg-[#1d2632] hover:text-[#16be27] duration-300 transition-all"
+      >
+        Calculate A Solution <i class="fa-regular fa-face-smile-wink"></i>
+      </button>
+    </form>
+    <div
+      id="result"
+      class="max-w-[800px] mx-auto mt-[30px] mb-[30px] bg-white p-5 rounded-lg shadow-md"
+    >
+      You'll see the result right here <i class="fa-regular fa-face-angry"></i>
+    </div>
+    <div
+      id="steps-container"
+      class="max-w-[800px] mx-auto mt-[30px] mb-[30px] bg-white p-5 rounded-lg shadow-md"
+    >
+      Don't worry, the calculation steps for
+      <span class="font-bold">Gauss-Jordan</span> and
+      <span class="font-bold">Inverse Matrix</span> will show up here
+      <i class="fa-regular fa-face-angry"></i>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
