@@ -10,7 +10,7 @@ https://3x3linearsolver.netlify.app/
 ---
 
 ## 🖼️ Preview
-![App Preview](./preview.png)
+![App Preview](preview.png)
 
 ---
 
