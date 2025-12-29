@@ -1,28 +1,44 @@
-🧮 3x3 Linear Solver – Numerical Methods Project
+# 3x3 Linear Solver
 
-This is an interactive web application designed to solve 3x3 systems of linear equations using **Gauss-Jordan Elimination** and **Inverse Matrix Method**. Built using **Tailwind CSS** and **Math.js**, this project was developed as part of a university assignment for the Numerical Methods course.
+Interactive web app to solve 3×3 systems of linear equations using **Gauss–Jordan Elimination** and **Inverse Matrix** methods. Built with Tailwind CSS and Math.js as a Numerical Methods course project.
 
-📊 Project Overview
+---
 
-This project allows users to input a 3x4 augmented matrix and displays both the final solution and the step-by-step calculations using two methods. It’s built with a clean and modern UI using Tailwind utility classes, and all calculations are processed in real time using JavaScript.
+## 🔗 Live Demo
+https://3x3linearsolver.netlify.app/
 
-🌟 Key Features
+---
 
-- Solve linear systems using Gauss-Jordan & Inverse Matrix
-- Step-by-step calculation display
-- Responsive and minimalist UI
-- Built with HTML, Tailwind CSS, and JavaScript
+## 🖼️ Preview
+![App Preview](./preview.png)
 
-📚 Technologies Used
+---
 
-HTML5  
-Tailwind CSS v3.4.1  
-Math.js  
-JavaScript (Vanilla)
+## 📊 Project Overview
+Users can input a **3×4 augmented matrix** to solve a system of three linear equations. The app displays:
 
-🔹 Credits
+- Final solution for the system
+- Step-by-step intermediate calculations using **Gauss–Jordan** and **Inverse Matrix** methods
 
-**Developer**: Alip Saefulloh
-Course: Numerical Methods (Metode Numerik)
+All computations run client-side using JavaScript and Math.js, with a clean and responsive UI styled using Tailwind CSS.
 
-This project was created for educational purposes and also serves as a part of my front-end development portfolio.
+---
+
+## 🌟 Key Features
+- Solve linear systems using Gauss–Jordan & Inverse Matrix methods
+- Step-by-step calculation display for learning & verification
+- Responsive, minimalist UI with Tailwind CSS
+- Client-side calculations (no backend required)
+
+---
+
+## 🧰 Tech Stack
+- HTML5
+- Tailwind CSS v3.4.1
+- JavaScript (Vanilla)
+- Math.js
+
+---
+
+## 👤 Author
+Alip Saefulloh
